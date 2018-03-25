@@ -4,6 +4,14 @@
     
     <entry>
       <title></title>
+      <link href="/2018/03/26/%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E7%9A%84%E5%85%BC%E5%AE%B9%E9%97%AE%E9%A2%98/"/>
+      <content type="html"><![CDATA[<p>upload_2.jpg</p><h1 id="文件上传兼容浏览器问题及解决"><a href="#文件上传兼容浏览器问题及解决" class="headerlink" title="文件上传兼容浏览器问题及解决"></a>文件上传兼容浏览器问题及解决</h1><h2 id="1-1-文件上传兼容浏览器问题"><a href="#1-1-文件上传兼容浏览器问题" class="headerlink" title="1.1    文件上传兼容浏览器问题"></a>1.1    文件上传兼容浏览器问题</h2><h3 id="1-1-1-问题描述"><a href="#1-1-1-问题描述" class="headerlink" title="1.1.1    问题描述"></a>1.1.1    问题描述</h3><p>如果使用IE老版本的浏览器出现一个文件名称获取错误问题。IE老版本获取文件<br>名称的时候，会带有路径。<br><img src="/img/upload_1.jpg" width="100%" higth="100%"></p><h3 id="1-1-2-问题解决"><a href="#1-1-2-问题解决" class="headerlink" title="1.1.2    问题解决"></a>1.1.2    问题解决</h3><p><img src="/img/upload_1.jpg" width="100%" higth="100%"></p>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
+      <title></title>
       <link href="/2018/03/25/%E7%AE%80%E8%BF%B0javaweb%E4%B8%AD%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/"/>
       <content type="html"><![CDATA[<h1 id="1-1-1-文件上传的概述"><a href="#1-1-1-文件上传的概述" class="headerlink" title="1.1.1    文件上传的概述"></a>1.1.1    文件上传的概述</h1><h2 id="1-1-1-1-什么是文件上传"><a href="#1-1-1-1-什么是文件上传" class="headerlink" title="1.1.1.1    什么是文件上传"></a>1.1.1.1    什么是文件上传</h2><p>    文件上传：将本地的文件通过流写入到服务器的过程。<br></p><h2 id="1-1-1-2-为什么要学习文件上传"><a href="#1-1-1-2-为什么要学习文件上传" class="headerlink" title="1.1.1.2    为什么要学习文件上传"></a>1.1.1.2    为什么要学习文件上传<br></h2><p>    实际开发中有很多应用：<br><br>        <a id="more"></a><br>    QQ空间上传图片<br>    招聘网站上传简历<br></p><h2 id="1-1-1-3-文件上传的技术"><a href="#1-1-1-3-文件上传的技术" class="headerlink" title="1.1.1.3    文件上传的技术"></a>1.1.1.3    文件上传的技术</h2><p>    <code>JSPSmartUpload</code>    ：应用在JSP上的文件上传和下载的组件。<br><br>    <code>FileUpload</code>        ：应用在Java环境上的文件上传的功能。<br><br>    <code>Servlet3.0</code>            ：提供文件上传的功能<br><br>    <code>Struts2</code>        ：提供文件上传的功能<br></p><h2 id="1-1-1-4-文件上传的要素"><a href="#1-1-1-4-文件上传的要素" class="headerlink" title="1.1.1.4    文件上传的要素"></a>1.1.1.4    文件上传的要素</h2><p>    文件上传的三个要素<br><br>    表单的提交的方式需要是POST<br><br>    表单中需要有<code>&lt;input type=”file”&gt;</code>元素，需要有name属性和值。<br>    表单<code>enctype=”multipart/form-data”</code></p>]]></content>
       
