@@ -4,6 +4,14 @@
     
     <entry>
       <title></title>
+      <link href="/2018/03/31/%E4%B8%89%E5%A4%A7%E6%A1%86%E6%9E%B6_struts_01/"/>
+      <content type="html"><![CDATA[<h1 id="一、-框架概述"><a href="#一、-框架概述" class="headerlink" title="一、 框架概述"></a>一、 框架概述</h1><h2 id="什么是框架，为什么使用框架，框架优点"><a href="#什么是框架，为什么使用框架，框架优点" class="headerlink" title="什么是框架，为什么使用框架，框架优点"></a>什么是框架，为什么使用框架，框架优点</h2><p>框架（framework）是一个基本概念上的结构，用于去解决或者处理复杂的问题<br><br>框架，即framework。其实就是某种应用的半成品，就是一组组件，供你选用完成你自己的系统。<br><br>简单说就是使用别人搭好的舞台，你来做表演。框架是在特定的领域内解决问题。</p><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><p>重用代码大大增加，软件生产效率和质量也得到了提高<br>使用框架开发，它提供统一的标准，大大降低了我们的后期维护。<br>学习框架重点:了解框架做了什么，我们要在这个基础上在做什么事情。</p><h1 id="二、-java开发中常用框架"><a href="#二、-java开发中常用框架" class="headerlink" title="二、 java开发中常用框架"></a>二、 java开发中常用框架</h1><ol><li>SSH   (SSM  SSI)</li><li>SSH  struts2  spring  hibernate</li><li>SSM(SSI) springmvc spring mybatis(ibatis)</li></ol><p>SSH 它是企业开发中比较主流的一套架构。</p><h1 id="三、-Struts2框架介绍"><a href="#三、-Struts2框架介绍" class="headerlink" title="三、 Struts2框架介绍"></a>三、 Struts2框架介绍</h1><p>什么是struts2框架，学习struts2框架的核心。<br>Struts2是一个基于MVC设计模式的Web应用框架，它本质上相当于一个servlet，在MVC设计模式中，Struts2作为控制器(Controller)来建立模型与视图的数据交互<br>Struts2=struts1+webwork</p><p>问题:struts2是一个mvc框架，它的mvc是什么?<br><a id="more"></a><br>javaweb开发中的mvc,是在jsp的model2模式中提过<br>Model——javabean<br>View——–jsp<br>Controller—-servlet</p><p>核心点:<br>1.拦截器 interceptor<br>2.Action<br>3.ognl与valueStack</p><p>在现在开发中与struts2比较类似的框架有哪些?<br>Struts1  webwork  springmvc  jsf</p><p>Struts2框架流程</p><p><img src="/img/struts_1.jpg" width="400" height="600"></p>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
+      <title></title>
       <link href="/2018/03/26/%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E7%9A%84%E5%85%BC%E5%AE%B9%E9%97%AE%E9%A2%98/"/>
       <content type="html"><![CDATA[<p>upload_2.jpg</p><h1 id="文件上传兼容浏览器问题及解决"><a href="#文件上传兼容浏览器问题及解决" class="headerlink" title="文件上传兼容浏览器问题及解决"></a>文件上传兼容浏览器问题及解决</h1><h2 id="1-1-文件上传兼容浏览器问题"><a href="#1-1-文件上传兼容浏览器问题" class="headerlink" title="1.1    文件上传兼容浏览器问题"></a>1.1    文件上传兼容浏览器问题</h2><h3 id="1-1-1-问题描述"><a href="#1-1-1-问题描述" class="headerlink" title="1.1.1    问题描述"></a>1.1.1    问题描述</h3><p>如果使用IE老版本的浏览器出现一个文件名称获取错误问题。IE老版本获取文件<br>名称的时候，会带有路径。<br><img src="/img/upload_1.jpg" width="100%" higth="100%"></p><h3 id="1-1-2-问题解决"><a href="#1-1-2-问题解决" class="headerlink" title="1.1.2    问题解决"></a>1.1.2    问题解决</h3><p><img src="/img/upload_1.jpg" width="100%" higth="100%"></p>]]></content>
       
